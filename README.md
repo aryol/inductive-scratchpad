@@ -12,7 +12,7 @@ We note that the code is mainly build upon Andrej Karpathy's [NanoGPT](https://g
     - `script_modulo_random_space.sh` for running length generalization experiments for the parity task presented in Figure 5 of the paper. 
     - `script_addition_random_space.sh` for running length generalization experiments for the addition task using the random space method presented in Figure 5 of the paper. 
     - `script_addition_shift.sh` for running length generalization experiments for the addition task using the shift method presented in Figure 5 of the paper.
-    - `script_ER` for the random graph experiment presented in Figure 7 of the paper.
+    - `script_ER.sh` for the random graph experiment presented in Figure 7 of the paper.
     - `script_cycles_cur.sh` for mixed distribution/curriculum learning experiments on the cycle task presented in Figures 8,9.
     - `script_modulo_sp.sh` for learning parities with cumulative product scratchpads as presented in Figure 10.
 - `config/` folder includes the config files for different experiments. Config files are passed to the models in the script files. Config files include the hyperparameters used for each experiment. 
